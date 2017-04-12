@@ -56,6 +56,7 @@ describe "Student" do
       expect(sarah.id).to eq(1)
     end
 
+
     it 'updates a record if called on an object that is already persisted' do
       jane = Student.new("Jane", "11th")
       jane.save
